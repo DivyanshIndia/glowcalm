@@ -26,6 +26,8 @@ export default function Exercises() {
   }, [])
 
   return (
+    <div className="md:h-screen p-4 md:p-6 flex flex-col animated-gradient">
+
     <div className="md:h-screen p-4 md:p-6 flex flex-col">
       <div className="flex-1 mx-auto w-full max-w-7xl flex flex-col">
         <div className="flex flex-col lg:flex-row gap-6 flex-1">
@@ -106,6 +108,7 @@ export default function Exercises() {
           </div>
         </div>
       </div>
+    </div>
     </div>
   )
 }
